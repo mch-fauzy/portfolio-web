@@ -1,0 +1,125 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --radius: 0.625rem;
+  --background: hsl(210 40% 98%);
+  --foreground: hsl(222 47% 11%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(222 47% 11%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(222 47% 11%);
+  --primary: hsl(222 89% 60%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(215 16% 90%);
+  --secondary-foreground: hsl(215 16% 35%);
+  --muted: hsl(215 16% 84%);
+  --muted-foreground: hsl(215 16% 46%);
+  --accent: hsl(222 89% 60%);
+  --accent-foreground: hsl(0 0% 100%);
+  --destructive: hsl(0 84% 60%);
+  --destructive-foreground: hsl(0 0% 98%);
+  --border: hsl(214 32% 91%);
+  --input: hsl(214 32% 91%);
+  --ring: hsl(222 89% 60%);
+  --chart-1: hsl(222 89% 60%);
+  --chart-2: hsl(205 65% 55%);
+  --chart-3: hsl(182 70% 46%);
+  --chart-4: hsl(48 96% 53%);
+  --chart-5: hsl(340 82% 52%);
+  --sidebar: hsl(0 0% 100%);
+  --sidebar-foreground: hsl(222 47% 11%);
+  --sidebar-primary: hsl(222 89% 60%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(215 16% 90%);
+  --sidebar-accent-foreground: hsl(222 47% 11%);
+  --sidebar-border: hsl(214 32% 91%);
+  --sidebar-ring: hsl(222 89% 60%);
+}
+
+.dark {
+  --background: hsl(222 71% 4%);
+  --foreground: hsl(210 40% 98%);
+  --card: hsl(222 71% 6%);
+  --card-foreground: hsl(210 40% 98%);
+  --popover: hsl(222 71% 8%);
+  --popover-foreground: hsl(210 40% 98%);
+  --primary: hsl(222 89% 60%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(217 19% 20%);
+  --secondary-foreground: hsl(215 16% 70%);
+  --muted: hsl(217 19% 20%);
+  --muted-foreground: hsl(215 16% 70%);
+  --accent: hsl(222 89% 65%);
+  --accent-foreground: hsl(0 0% 100%);
+  --destructive: hsl(358 72% 60%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(217 19% 20%);
+  --input: hsl(217 19% 20%);
+  --ring: hsl(222 89% 65%);
+  --chart-1: hsl(222 78% 62%);
+  --chart-2: hsl(205 60% 58%);
+  --chart-3: hsl(182 60% 52%);
+  --chart-4: hsl(48 80% 58%);
+  --chart-5: hsl(340 70% 58%);
+  --sidebar: hsl(222 71% 6%);
+  --sidebar-foreground: hsl(210 40% 98%);
+  --sidebar-primary: hsl(222 89% 60%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(217 19% 20%);
+  --sidebar-accent-foreground: hsl(210 40% 98%);
+  --sidebar-border: hsl(217 19% 24%);
+  --sidebar-ring: hsl(222 89% 65%);
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-border: hsl(var(--border));
+  --color-ring: hsl(var(--ring));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-input: hsl(var(--input));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
