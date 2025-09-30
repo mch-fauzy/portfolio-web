@@ -4,11 +4,16 @@ Personal portfolio built with **Next.js 15 App Router**, **Tailwind CSS v4**, an
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
 - [Requirements](#requirements)
 - [Highlights](#highlights)
 - [Getting Started](#getting-started)
   - [Copy Environment Template](#copy-environment-template)
   - [Run Locally](#run-locally)
+
+## Live Demo
+
+Visit the live site at [https://mch-fauzy.vercel.app/](https://mch-fauzy.vercel.app/).
 
 ## Requirements
 
