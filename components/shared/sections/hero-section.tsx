@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Container } from "@/components/shared/container/container";
 import { Button } from "@/components/ui/button";
-import { heroMetrics, socialLinks } from "@/lib/portfolio-data";
+import { heroMetrics } from "@/lib/portfolio-data";
 
 const profileImage = {
   src: "/images/muchamad-fauzy.jpg",
@@ -29,25 +29,28 @@ export function HeroSection() {
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
-            <Button asChild size="lg" className="rounded-full px-6">
+            <Button
+              asChild
+              size="lg"
+              variant="default"
+              className="rounded-full px-6 shadow-[0_12px_40px_-15px_rgba(82,118,234,0.7)]"
+            >
               <Link href="#contact">
                 Let’s collaborate
                 <ArrowUpRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="ghost" size="lg" className="rounded-full text-muted-foreground hover:text-foreground">
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="rounded-full border-border/80 bg-background/80 px-6 text-sm font-medium transition hover:border-accent hover:text-accent"
+            >
               <Link href="https://github.com/mch-fauzy" target="_blank" rel="noreferrer">
                 View GitHub
                 <ArrowUpRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-          </div>
-          <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
-            {socialLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="transition hover:text-foreground">
-                {link.label}
-              </Link>
-            ))}
           </div>
         </div>
         <div className="flex-1 space-y-6">

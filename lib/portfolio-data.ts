@@ -18,8 +18,8 @@ export const navItems: readonly NavItem[] = [
 ];
 
 export const socialLinks: readonly SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/mch-fauzy" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/mch-fauzy-11b1471a5fa/" },
+  { label: "GitHub", href: "https://github.com/mch-fauzy", target: "_blank", rel: "noreferrer" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/mch-fauzy-11b1471a5fa/", target: "_blank", rel: "noreferrer" },
   { label: "Email", href: "mailto:mufa.work@gmail.com" },
 ];
 

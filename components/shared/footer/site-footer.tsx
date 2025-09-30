@@ -16,6 +16,8 @@ export function SiteFooter({ brandName }: SiteFooterProps) {
             <Link
               key={link.href}
               href={link.href}
+              target={link.target}
+              rel={link.rel}
               className="transition hover:text-foreground"
             >
               {link.label}

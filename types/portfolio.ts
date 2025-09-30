@@ -6,6 +6,8 @@ export interface NavItem {
 export interface SocialLink {
   readonly label: string;
   readonly href: string;
+  readonly target?: "_blank" | "_self";
+  readonly rel?: string;
 }
 
 export interface Metric {
