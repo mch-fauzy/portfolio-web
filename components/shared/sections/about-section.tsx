@@ -17,7 +17,7 @@ export function AboutSection() {
               My toolkit spans TypeScript, Golang, Next.js, relational databases, message-driven patterns, caching, and more. Recently I’ve been developing access control systems for the JIIPE special economic zone, where reliability, auditability, and integrations with customs services are non-negotiable.
             </p>
             <p>
-              Beyond delivering features, I invest in developer experience — strengthening API contracts, building reusable UI patterns, and pairing with peers to elevate code quality. I believe calm, well-instrumented systems create the space for teams to iterate quickly without fire drills.
+              Beyond delivering features, I invest in developer experience by strengthening API contracts, building reusable UI patterns, and pairing with peers to elevate code quality. I believe calm, well-instrumented systems create the space for teams to iterate quickly without fire drills.
             </p>
           </div>
         </div>
