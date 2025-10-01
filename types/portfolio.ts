@@ -8,6 +8,7 @@ export interface SocialLink {
   readonly href: string;
   readonly target?: "_blank" | "_self";
   readonly rel?: string;
+  readonly icon: string;
 }
 
 export interface Metric {
