@@ -20,6 +20,7 @@ export interface Metric {
 export interface ExperienceItem {
   readonly company: string;
   readonly role: string;
+  readonly employmentType: string;
   readonly period: string;
   readonly location: string;
   readonly summary: string;

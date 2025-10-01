@@ -56,8 +56,9 @@ export const heroMetrics: readonly Metric[] = [
 export const experience: readonly ExperienceItem[] = [
   {
     company: "DOT Indonesia",
-    role: "Backend Engineer (Contract / Freelance)",
-    period: "Mar 2025 – Present",
+    role: "Backend Engineer",
+    employmentType: "Contract / Freelance",
+    period: "Mar 2025 - Present",
     location: "Remote",
     summary:
       "Delivering secure access control and cargo workflows for the Java Integrated Industrial and Ports Estate (JIIPE).",
@@ -78,8 +79,9 @@ export const experience: readonly ExperienceItem[] = [
   },
   {
     company: "Move Byte",
-    role: "Software Engineer (Contract)",
-    period: "Jan 2024 – Dec 2024",
+    role: "Software Engineer",
+    employmentType: "Contract",
+    period: "Jan 2024 - Dec 2024",
     location: "Hybrid",
     summary:
       "Built payroll and credit products that automate compliance and streamline finance operations for Indonesian SMEs.",
@@ -101,8 +103,9 @@ export const experience: readonly ExperienceItem[] = [
   },
   {
     company: "Osindo Bahagia Bersama",
-    role: "Backend Engineer (Contract)",
-    period: "Jul 2023 – Dec 2023",
+    role: "Backend Engineer",
+    employmentType: "Contract",
+    period: "Jul 2023 - Dec 2023",
     location: "Remote",
     summary:
       "Created APIs that help marketplaces moderate content and surface revenue insights for sellers.",
