@@ -25,7 +25,7 @@ export function SiteFooter({ brandName }: SiteFooterProps) {
                 aria-label={link.label}
                 className={cn(
                   buttonVariants({ variant: "ghost", size: "icon" }),
-                  "text-muted-foreground hover:opacity-90"
+                  "text-muted-foreground"
                 )}
               >
                 <Image
@@ -35,7 +35,7 @@ export function SiteFooter({ brandName }: SiteFooterProps) {
                   height={20}
                   sizes="20px"
                   aria-hidden="true"
-                  className="h-5 w-5"
+                  className="h-5 w-5 dark:invert hover:opacity-50"
                 />
               </Link>
             );
