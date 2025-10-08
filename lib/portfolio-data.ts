@@ -200,6 +200,7 @@ export const skills: readonly SkillCategory[] = [
       "Node.js",
       "NestJS",
       "Express",
+      "TypeScript",
       "Golang",
       "GORM",
       "RESTful APIs",

@@ -25,7 +25,7 @@ export function HeroSection() {
               Building reliable systems that keep operations moving.
             </h1>
             <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              Hi, I’m Muchamad Fauzy — a backend-leaning software engineer based in Surabaya. I collaborate with product and operations teams to ship resilient APIs, integrate external services, and translate business rules into dependable software. From port automation to project monitoring suites, I focus on giving operators real-time confidence in the systems they rely on.
+              Hi, I’m Muchamad Fauzy — a backend-leaning software engineer who collaborates with product and operations teams to ship resilient APIs, integrate external services, and translate business rules into dependable software. From port automation to project monitoring suites, I focus on giving operators real-time confidence in the systems they rely on, while staying comfortable owning frontend and full-stack delivery when teams need it.
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
