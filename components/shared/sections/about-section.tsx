@@ -14,7 +14,7 @@ export function AboutSection() {
           />
           <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
             <p>
-              My toolkit spans TypeScript, Golang, Next.js, relational databases, message-driven patterns, caching, and more. Recently I’ve been developing access control systems for the JIIPE special economic zone, where reliability, auditability, and integrations with customs services are non-negotiable.
+              My toolkit spans TypeScript, React, Golang, Next.js, relational databases, message-driven patterns, caching, and more. Recently I’ve been developing access control systems for the JIIPE special economic zone, where reliability, auditability, and integrations with customs services are non-negotiable, alongside a project monitoring platform that links React dashboards with Golang services to keep entertainment initiatives on budget.
             </p>
             <p>
               Beyond delivering features, I invest in developer experience by strengthening API contracts, building reusable UI patterns, and pairing with peers to elevate code quality. I believe calm, well-instrumented systems create the space for teams to iterate quickly without fire drills.

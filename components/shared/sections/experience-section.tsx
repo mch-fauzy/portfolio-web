@@ -10,7 +10,7 @@ export function ExperienceSection() {
         <SectionBadge
           eyebrow="Experience"
           title="Delivering complex integrations with confidence"
-          description="From logistics checkpoints to payroll automation, I build the foundations that let teams launch features quickly, stay compliant, and keep data flowing between systems."
+          description="From logistics checkpoints to dashboards for payroll and project monitoring, I build the foundations that let teams launch features quickly, stay compliant, and keep data flowing between systems."
         />
         <div className="space-y-8">
           {experience.map((item) => {

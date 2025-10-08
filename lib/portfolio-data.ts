@@ -61,14 +61,19 @@ export const experience: readonly ExperienceItem[] = [
     period: "Mar 2025 - Present",
     location: "Remote",
     summary:
-      "Delivering secure access control and cargo workflows for the Java Integrated Industrial and Ports Estate (JIIPE).",
+      "Delivering secure access control and cargo workflows for the Java Integrated Industrial and Ports Estate (JIIPE) while co-building a React-powered project monitoring platform for entertainment initiatives.",
     achievements: [
       "Shaped REST APIs for user, role, and QR-based gate access that handle thousands of daily checkpoint scans without downtime.",
       "Implemented schema migrations, seed scripts, and observability hooks (Sentry, structured logs) to keep deployments predictable.",
       "Coordinated integrations with Customs CEISA and PTOSM, ensuring compliance for cross-system data validation.",
+      "Delivered project monitoring workflows by connecting React dashboards to Golang services for real-time budget tracking.",
     ],
     tech: [
       "NestJS",
+      "React",
+      "Ant Design",
+      "Golang",
+      "GORM",
       "TypeScript",
       "TypeORM",
       "PostgreSQL",
@@ -133,7 +138,15 @@ export const featuredProjects: readonly ProjectItem[] = [
       "Gate automation platform orchestrating cargo entry, customs validation, and QR-based access control across the JIIPE port.",
     impact:
       "Improved throughput for security checkpoints while meeting customs compliance requirements.",
-    stack: ["NestJS", "TypeScript", "PostgreSQL", "Redis", "BullMQ"],
+    stack: ["NestJS", "TypeScript", "PostgreSQL", "Redis", "BullMQ", "Docker"],
+  },
+  {
+    name: "Project Monitoring System",
+    description:
+      "Budget oversight platform pairing React dashboards with Golang services to track entertainment initiatives end-to-end.",
+    impact:
+      "Supplied real-time visibility for finance leads by automating daily progress recalculations and spend alerts.",
+    stack: ["React", "Ant Design", "Golang", "GORM", "PostgreSQL", "Redis", "BullMQ", "Docker"],
   },
   {
     name: "Payroll & Leave Operations",
@@ -188,6 +201,7 @@ export const skills: readonly SkillCategory[] = [
       "NestJS",
       "Express",
       "Golang",
+      "GORM",
       "RESTful APIs",
       "TypeORM",
       "Prisma",
@@ -199,7 +213,7 @@ export const skills: readonly SkillCategory[] = [
   },
   {
     category: "Frontend",
-    items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
+    items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn UI", "Ant Design"],
   },
   {
     category: "DevOps & Tooling",
@@ -207,7 +221,7 @@ export const skills: readonly SkillCategory[] = [
   },
   {
     category: "Practices",
-    items: ["Domain modeling", "API design", "Documentation", "Observability", "Cross-team collaboration"],
+    items: ["API design", "Documentation", "Observability", "Cross-team collaboration"],
   },
 ];
 
