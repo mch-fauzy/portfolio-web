@@ -139,6 +139,12 @@ export const featuredProjects: readonly ProjectItem[] = [
     impact:
       "Improved throughput for security checkpoints while meeting customs compliance requirements.",
     stack: ["NestJS", "TypeScript", "PostgreSQL", "Redis", "BullMQ", "Docker"],
+    galleries: [
+      {
+        src: "/images/autogate-sez-gresik/auth/login.webp",
+        alt: "Autogate SEZ Gresik login screen for gate officers with credential inputs.",
+      },
+    ],
   },
   {
     name: "Project Monitoring System",
@@ -149,7 +155,7 @@ export const featuredProjects: readonly ProjectItem[] = [
     stack: ["React", "Ant Design", "Golang", "GORM", "PostgreSQL", "Redis", "BullMQ", "Docker"],
     galleries: [
       {
-        src: "/images/project-monitoring-system/entertainment-budget/list-2.webp",
+        src: "/images/project-monitoring-system/entertainment-budget/list-3.webp",
         alt: "Entertainment budget dashboard listing project requests with approval status indicators.",
         priority: true,
       },
