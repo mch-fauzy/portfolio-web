@@ -147,6 +147,37 @@ export const featuredProjects: readonly ProjectItem[] = [
     impact:
       "Supplied real-time visibility for finance leads by automating daily progress recalculations and spend alerts.",
     stack: ["React", "Ant Design", "Golang", "GORM", "PostgreSQL", "Redis", "BullMQ", "Docker"],
+    galleries: [
+      {
+        src: "/images/project-monitoring-system/entertainment-budget/list-2.webp",
+        alt: "Entertainment budget dashboard listing project requests with approval status indicators.",
+        priority: true,
+      },
+      {
+        src: "/images/project-monitoring-system/entertainment-budget/create-2.webp",
+        alt: "Interface for creating a new entertainment budget request.",
+      },
+      {
+        src: "/images/project-monitoring-system/entertainment-budget/update.webp",
+        alt: "Form to update entertainment budget allocations across departments.",
+      },
+      {
+        src: "/images/project-monitoring-system/entertainment-budget/delete.webp",
+        alt: "Confirmation dialog for deleting an entertainment budget request.",
+      },
+            {
+        src: "/images/project-monitoring-system/entertainment-budget/approve.webp",
+        alt: "Modal to approve entertainment budget requests",
+      },
+      {
+        src: "/images/project-monitoring-system/entertainment-budget/reject.webp",
+        alt: "Modal to reject entertainment budget requests",
+      },
+      {
+        src: "/images/project-monitoring-system/auth/login.webp",
+        alt: "Login screen for the project monitoring system showing credential inputs.",
+      },
+    ],
   },
   {
     name: "Payroll & Leave Operations",

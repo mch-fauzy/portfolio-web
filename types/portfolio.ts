@@ -28,12 +28,19 @@ export interface ExperienceItem {
   readonly tech: readonly string[];
 }
 
+export interface ProjectMedia {
+  readonly src: string;
+  readonly alt: string;
+  readonly priority?: boolean;
+}
+
 export interface ProjectItem {
   readonly name: string;
   readonly description: string;
   readonly impact: string;
   readonly stack: readonly string[];
   readonly href?: string;
+  readonly galleries?: readonly ProjectMedia[];
 }
 
 export interface SkillCategory {
