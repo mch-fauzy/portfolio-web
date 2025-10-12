@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { heroMetrics } from "@/lib/portfolio-data";
 
 const profileImage = {
-  src: "/images/muchamad-fauzy.jpg",
+  src: "/images/muchamad-fauzy.webp",
   width: 500,
   height: 500,
   alt: "Portrait of Muchamad Fauzy",
