@@ -3,14 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Container } from "@/components/shared/container/container";
 import { Button } from "@/components/ui/button";
-import { heroMetrics } from "@/lib/portfolio-data";
-
-const profileImage = {
-  src: "/images/muchamad-fauzy.webp",
-  width: 500,
-  height: 500,
-  alt: "Portrait of Muchamad Fauzy",
-};
+import { heroMetrics, heroProfileImage } from "@/lib/portfolio-data";
 
 export function HeroSection() {
   return (
@@ -56,10 +49,10 @@ export function HeroSection() {
         <div className="flex-1 space-y-6">
           <div className="relative mx-auto aspect-square max-w-sm overflow-hidden rounded-[36px] border border-border/70 bg-gradient-to-br from-muted/40 to-background shadow-xl">
             <Image
-              src={profileImage.src}
-              alt={profileImage.alt}
-              width={profileImage.width}
-              height={profileImage.height}
+              src={heroProfileImage.src}
+              alt={heroProfileImage.alt}
+              width={heroProfileImage.width}
+              height={heroProfileImage.height}
               className="h-full w-full object-cover"
               priority
             />

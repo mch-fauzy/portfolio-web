@@ -4,6 +4,7 @@ import type {
   ExperienceItem,
   Metric,
   NavItem,
+  ProfileImage,
   ProjectItem,
   SkillCategory,
   SocialLink,
@@ -52,6 +53,13 @@ export const heroMetrics: readonly Metric[] = [
     description: "supported with reusable backend foundations and documentation",
   },
 ];
+
+export const heroProfileImage: ProfileImage = {
+  src: "/images/muchamad-fauzy.webp",
+  width: 500,
+  height: 500,
+  alt: "Portrait of Muchamad Fauzy",
+};
 
 export const experience: readonly ExperienceItem[] = [
   {

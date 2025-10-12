@@ -17,6 +17,13 @@ export interface Metric {
   readonly description: string;
 }
 
+export interface ProfileImage {
+  readonly src: string;
+  readonly width: number;
+  readonly height: number;
+  readonly alt: string;
+}
+
 export interface ExperienceItem {
   readonly company: string;
   readonly role: string;
