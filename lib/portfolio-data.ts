@@ -210,6 +210,50 @@ export const featuredProjects: readonly ProjectItem[] = [
     stack: ["Golang", "MySQL", "Appsmith", "Docker"],
   },
   {
+    name: "AI CV Evaluator",
+    description:
+      "AI-powered API service for evaluating CVs and project reports against job requirements using RAG and OpenAI GPT models.",
+    impact:
+      "Enables automated CV screening with semantic search and intelligent scoring, reducing manual review time for HR teams.",
+    stack: ["NestJS", "TypeScript", "PostgreSQL", "Redis", "OpenAI", "ChromaDB", "BullMQ", "Docker"],
+    href: "https://ai-cv-evaluator.onrender.com",
+    galleries: [
+      {
+        src: "/images/ai-cv-evaluator/home.webp",
+        alt: "AI CV Evaluator API documentation homepage showing interactive Swagger interface.",
+        priority: true,
+      },
+      {
+        src: "/images/ai-cv-evaluator/result-by-evaluation-id.webp",
+        alt: "Evaluation results page displaying AI-generated CV analysis and scoring.",
+      },
+    ],
+  },
+  {
+    name: "Chatroom",
+    description:
+      "Real-time chat application built with Ruby on Rails and React, featuring WebSocket-powered instant messaging.",
+    impact:
+      "Demonstrates modern full-stack development with real-time capabilities and responsive UI design.",
+    stack: ["Ruby on Rails", "React", "TypeScript", "PostgreSQL", "Redis", "WebSockets", "Tailwind CSS"],
+    href: "https://simple-chatroom-bsn0.onrender.com/",
+    galleries: [
+      {
+        src: "/images/simple-chatroom/global-chatroom.webp",
+        alt: "Global chatroom interface showing real-time messaging with user avatars and timestamps.",
+        priority: true,
+      },
+      {
+        src: "/images/simple-chatroom/chatting.webp",
+        alt: "Active chat conversation demonstrating real-time message exchange.",
+      },
+      {
+        src: "/images/simple-chatroom/new-chat-notif.webp",
+        alt: "New message notification system in the chatroom application.",
+      },
+    ],
+  },
+  {
     name: "Clothing Store Web",
     description:
       "Full-stack ecommerce experiment showcasing authentication, product management, and checkout flows.",
